@@ -425,3 +425,24 @@ footer .credit a {
     font-size: 55%;
   }
 }
+
+.navbar .navbar-extra {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar .navbar-extra a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.8rem;
+  height: 2.8rem;
+  margin: 0;
+}
+
+.navbar .navbar-extra a svg {
+  width: 2rem;
+  height: 2rem;
+}
