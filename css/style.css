@@ -88,6 +88,9 @@ body {
 
 /* Hero Section*/
 .hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -234,7 +237,7 @@ body {
 .menu .row .menu-card .menu-card-title {
   margin:
     1,
-    5rem auto 0.5rem;
+    5rem auto 0.5re;
 }
 
 /* contact section */
@@ -243,6 +246,7 @@ body {
   display: flex;
   margin-top: 2rem;
   background-color: #222;
+
 }
 
 .contact .row .map {
@@ -316,7 +320,7 @@ footer .links a {
 }
 
 footer .credit {
-  font-size: 0.8rem;
+  font-size: 0.8rem; 
 }
 
 footer .credit a {
@@ -395,22 +399,25 @@ footer .credit a {
     font-size: 1.6rem;
   }
 
-  .menu p {
-    font-size: 1.2rem;
-  }
 
-  .contact .row {
-    flex-wrap: wrap;
-  }
-
-  .contact .row .map {
-    height: 30rem;
-  }
-
-  .contact .row form {
-    padding-top: 0;
-  }
+.menu p {
+  font-size: 1.2rem;
 }
+
+.contact .row {
+  flex-wrap: wrap;
+}
+
+.contact .row .map {
+  height: 30rem;
+}
+
+.contact .row form {
+  padding-top: 0;
+}
+}
+
+
 
 /* Mobile Phone */
 @media (max-width: 450px) {
