@@ -344,8 +344,23 @@ footer .credit a {
   }
 
   #pisang-menu {
-    display: inline-block;
+    display: flex;
   }
+
+  .navbar .navbar-extra {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.navbar .navbar-extra a {
+  width: 3rem;
+  height: 3rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}   
 
   .navbar .navbar-nav {
     position: absolute;
