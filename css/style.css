@@ -220,7 +220,7 @@ body {
 .menu .row {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 5rem;
+  margin-top: 3rem;
   justify-content: center;
 }
 
@@ -240,13 +240,28 @@ body {
     5rem auto 0.5re;
 }
 
+.menu-subtitle {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.menu-description {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.kentang-menu {
+  margin-top: 0.5rem !important;
+}
+
 /* contact section */
 
 .contact .row {
   display: flex;
   margin-top: 2rem;
   background-color: #222;
-
 }
 
 .contact .row .map {
@@ -320,7 +335,7 @@ footer .links a {
 }
 
 footer .credit {
-  font-size: 0.8rem; 
+  font-size: 0.8rem;
 }
 
 footer .credit a {
@@ -348,19 +363,19 @@ footer .credit a {
   }
 
   .navbar .navbar-extra {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-}
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
 
-.navbar .navbar-extra a {
-  width: 3rem;
-  height: 3rem;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}   
+  .navbar .navbar-extra a {
+    width: 3rem;
+    height: 3rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   .navbar .navbar-nav {
     position: absolute;
@@ -414,25 +429,22 @@ footer .credit a {
     font-size: 1.6rem;
   }
 
+  .menu p {
+    font-size: 1.2rem;
+  }
 
-.menu p {
-  font-size: 1.2rem;
+  .contact .row {
+    flex-wrap: wrap;
+  }
+
+  .contact .row .map {
+    height: 30rem;
+  }
+
+  .contact .row form {
+    padding-top: 0;
+  }
 }
-
-.contact .row {
-  flex-wrap: wrap;
-}
-
-.contact .row .map {
-  height: 30rem;
-}
-
-.contact .row form {
-  padding-top: 0;
-}
-}
-
-
 
 /* Mobile Phone */
 @media (max-width: 450px) {
