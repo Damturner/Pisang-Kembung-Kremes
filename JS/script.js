@@ -35,8 +35,5 @@ contactForm.addEventListener("submit", function (e) {
     `Email: ${email}%0A` +
     `No HP: ${nohp}`;
 
-  window.open(
-    `https://wa.me/${nomorWhatsApp}?text=${pesan}`,
-    "_blank"
-  );
+  window.open(`https://wa.me/${nomorWhatsApp}?text=${pesan}`, "_blank");
 });
