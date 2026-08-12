@@ -30,7 +30,7 @@ contactForm.addEventListener("submit", function (e) {
   const nomorWhatsApp = "6285231162322";
 
   const pesan =
-    `Halo, saya ingin memesan Pisang Kembung Maknyus.%0A%0A` +
+    `Halo, saya ingin memesan.%0A%0A` +
     `Nama: ${nama}%0A` +
     `Email: ${email}%0A` +
     `No HP: ${nohp}`;
