@@ -129,10 +129,10 @@ body {
 }
 
 .hero .content p {
-  font-size: 1.6rem;
+  font-size: 2rem;
   margin-top: 1rem;
-  line-height: 1.4;
-  font-weight: 100;
+  line-height: 1.5;
+  font-weight: 700;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   mix-blend-mode: difference;
 }
@@ -254,6 +254,18 @@ body {
 
 .kentang-menu {
   margin-top: 0.5rem !important;
+}
+
+.menu-list-image {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.menu-list-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
 }
 
 /* contact section */
@@ -472,4 +484,32 @@ footer .credit a {
 .navbar .navbar-extra a svg {
   width: 2rem;
   height: 2rem;
+}
+
+.hero .content p {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .hero .content {
+    padding: 1.4rem 7%;
+  }
+
+  .hero .content h1 {
+    font-size: 3.2rem;
+    line-height: 1.2;
+  }
+
+  .hero .content p {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  .hero .content .cta {
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+  }
 }
