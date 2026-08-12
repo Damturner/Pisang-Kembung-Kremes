@@ -485,13 +485,13 @@ footer .credit a {
   width: 2rem;
   height: 2rem;
 }
-
 .hero .content p {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1.5;
 }
 
+/* Tampilan HP */
 @media (max-width: 768px) {
   .hero .content {
     padding: 1.4rem 7%;
@@ -511,5 +511,16 @@ footer .credit a {
   .hero .content .cta {
     font-size: 1.4rem;
     padding: 1rem 2rem;
+  }
+}
+
+/* HP sangat kecil */
+@media (max-width: 320px) {
+  .hero .content h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero .content p {
+    font-size: 1.4rem;
   }
 }
